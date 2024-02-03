@@ -3,7 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 朱忠伟的博客
+navbar:
+  blog_title: 朱忠伟的博客
 subtitle: ""
 description: ""
 keywords:
@@ -98,6 +100,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid
+# remote_theme: fluid-dev/hexo-theme-fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -116,3 +119,8 @@ about:
       }
     # - { class: 'iconfont icon-douban-fill', link: 'https://douban.com', tip: '豆瓣' }
     # - { class: 'iconfont icon-wechat-fill', qrcode: '/img/favicon.png' }
+
+index:
+  slogan:
+    enable: true
+    text: 这是一条 Slogan

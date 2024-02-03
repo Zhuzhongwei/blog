@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 朱忠伟的博客
 subtitle: ""
 description: ""
 keywords:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: fluid
+theme: fluid
 remote_theme: fluid-dev/hexo-theme-fluid
 
 # Deployment
