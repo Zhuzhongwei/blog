@@ -103,5 +103,6 @@ remote_theme: theme-next/hexo-theme-next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repo: git@github.com:Zhuzhongwei/Zhuzhongwei.github.io.git
+  repo: git@github.com:Zhuzhongwei/blog.git
   branch: main
+  
