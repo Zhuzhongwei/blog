@@ -8,7 +8,7 @@ on:
 env:
   GIT_USER: Zhuzhongwei
   GIT_EMAIL: 467410956@qq.com
-  THEME_REPO: fluid-dev/hexo-theme-fluid
+  THEME_REPO: theme-next/hexo-theme-next
   THEME_BRANCH: master
   DEPLOY_REPO: Zhuzhongwei/Zhuzhongwei.github.io
   DEPLOY_BRANCH: main
@@ -31,7 +31,7 @@ jobs:
         with:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
-          path: themes/fluid
+          path: themes/next
 
       - name: Checkout deploy repo
         uses: actions/checkout@v4
